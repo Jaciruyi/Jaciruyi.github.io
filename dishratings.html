@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Foodie Blog</title>
+  <!-- Include CSS file -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home </a></li>
+        <li><a href="cuisines.html">Cuisines </a></li>
+        <li><a href="dishratings.html">Dish Ratings </a></li>
+        <li><a href="#">Restaurants </a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="dish-ratings">
+      <h2>Dish Ratings</h2>
+      <div class="dish-card">
+        <img src="rice-curry-goat.jpg" alt="Rice & Curry Goat">
+        <h3>Rice & Curry Goat</h3>
+        <p>AFRIKANA</p>
+        <div class="rating">4.5/5</div>
+        <p>African</p>
+      </div>
+      <div class="dish-card">
+        <img src="chicken-rice-bowl.jpg" alt="Chicken Rice Bowl">
+        <h3>Chicken Rice Bowl</h3>
+        <p>SHAKE SHEIK</p>
+        <div class="rating">4.2/5</div>
+        <p>African</p>
+      </div>
+      <div class="dish-card">
+        <img src="jollof-rice.jpg" alt="Jollof Rice">
+        <h3>Jollof Rice</h3>
+        <p>JOLLOF REPUBLIC</p>
+        <div class="rating">4.8/5</div>
+        <p>African (Nigerian)</p>
+      </div>
+    </section>
+
+    <section class="dish-details">
+      <h2>Chickenjoy</h2>
+      <div class="dish-info">
+        <img src="chickenjoy.jpg" alt="Chickenjoy">
+        <div class="details">
+          <p class="restaurant">Jollibee</p>
+          <div class="rating">4.7/5</div>
+          <p class="cuisine">Filipino</p>
+          <p class="description">Integer vitae faucibus erat. Maecenas ac interdum lorem, nec blandit lectus. Cras vestibulum, augue id viverra euismod, tellus ipsum...</p>
+        </div>
+      </div>
+      <div class="reviews">
+        <h3>Reviews</h3>
+        <div class="review-card">
+          <div class="reviewer-info">
+            <img src="mark-f.jpg" alt="Mark F.">
+            <div class="name-rating">
+              <h4>Mark F.</h4>
+              <div class="rating">4.5/5</div>
+            </div>
+          </div>
+          <p class="review-text">It was delicious! Can't wait to come again :)</p>
+        </div>
+        <div class="review-card">
+          <div class="reviewer-info">
+            <img src="rosie-glamrock.jpg" alt="Rosie Glamrock">
+            <div class="name-rating">
+              <h4>Rosie Glamrock</h4>
+              <div class="rating">5/5</div>
+            </div>
+          </div>
+          <p class="review-text">Best I've ever had in Manchester.</p>
+        </div>
+        <form class="review-form">
+          <h3>Write a review</h3>
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email" />
+          <textarea placeholder="Type your message here"></textarea>
+          <div class="rating-inputs">
+            <label>Rate dish flavour</label>
+            <input type="range" min="1" max="5" />
+            <label>Rate dish appearance</label>
+            <input type="range" min="1" max="5" />
+            <label>Rate dish portion size</label>
+            <input type="range" min="1" max="5" />
+          </div>
+          <div class="form-actions">
+            <button type="submit">Submit</button>
+            <button type="button">Cancel</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 The Foodie Blog. All rights reserved.</p>
+    <div class="social-media">
+      <a href="#" class="social-icon">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="#" class="social-icon">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="#" class="social-icon">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+  </footer>
+
+  <!-- Include JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
